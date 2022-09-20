@@ -1,0 +1,7 @@
+{
+    "name": "jmencoder/jmencoder.github.io",
+    "description": "Blog Personal",
+    "require": {
+        "nesbot/carbon": "^2.62"
+    }
+}
