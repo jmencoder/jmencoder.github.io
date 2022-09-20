@@ -12,5 +12,6 @@ use Carbon\Carbon;
 </head>
 <body>
     Hola!
+    <?=Carbon::now();?>
 </body>
 </html>
