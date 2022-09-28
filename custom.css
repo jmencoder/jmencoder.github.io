@@ -3,3 +3,14 @@
 .font-family-open-sans {
     font-family: 'Open Sans';
 }
+
+
+pre {
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    max-height: 600px;
+    overflow: auto;
+    padding: 5px;
+    width: auto;
+}
