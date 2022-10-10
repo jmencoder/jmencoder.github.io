@@ -23,7 +23,9 @@ $(document).ready(function () {
         $("#sidebar-categories").next().remove();
         $("#sidebar-categories").removeClass("hidden");
         $("#sidebar-languages").next().remove();
-        $("#sidebar-languages").removeClass("hidden");
+        // $("#sidebar-languages").removeClass("hidden");
+        $("#sidebar-about").next().remove();
+        $("#sidebar-about").removeClass("hidden");
     }, 200);
     $.each($("code"), function (indexInArray, valueOfElement) { 
         $(valueOfElement).html($(valueOfElement).html().replace(/(\r\n|\n|\r)/gm, "<br>").replace("<br>","").replace(/<br><br>/g,"<br>"));
